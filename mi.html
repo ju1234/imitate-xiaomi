@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>小米商城—小米官方网站,小米手机、红米手机、小米笔记本，小米电视正品专卖</title>
+    <link rel="shortcut icon" href="images/logo1.ico">
+    <link rel="stylesheet" href="css/mi.css">
+    <script type="text/javascript" src="js/jquery18.js"></script>
+    <script type="text/javascript" src="js/slides.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#xmSlide").xmSlide({
+                width: 950,
+                height: 460,
+                responsiveWidth: 710,
+                pagination: {
+                    effect: "fade"
+                },
+                effect: {
+                    fade: {
+                        speed: 400
+                    }
+                },
+                play: {
+                    effect: "fade",
+                    interval: 2500,
+                    auto: true,
+                    pauseOnHover: true,
+                    restartDelay: 2500
+                }
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div class="site-topbar">
+        <div class="container">
+            <div class="top-nav">
+                <a href="" target="_blank">小米商城</a>
+                <span class="sep">|</span>
+                <a href="" target="_blank">MIUI</a>
+                <span class="sep">|</span>
+                <a href="" target="_blank">米聊</a>
+                <span class="sep">|</span>
+                <a href="" target="_blank">游戏</a>
+                <span class="sep">|</span>
+                <a href="" target="_blank">多看阅读</a>
+                <span class="sep">|</span>
+                <a href="" target="_blank">云服务</a>
+                <span class="sep">|</span>
+                <a href="" target="_blank">金融</a>
+                <span class="sep">|</span>
+                <a href="" target="_blank">小米网移动版</a>
+                <span class="sep">|</span>
+                <a href="" target="_blank">问题反馈</a>
+                <span class="sep">|</span>
+                <a href="" target="_blank">Select Region</a>
+            </div>
+            <div class="top-cart">
+                <a class="cart-mini" href="">
+                    <img id="shoppinglogo" src="images/shoppingcar.png">
+                    <span class="cart-mini-num" id="cart-mini-num">购物车(0)</span>
+                    <div id="cart-mini-numItem">
+                        购物车还没有任何商品！
+                    </div>
+                    <script type="text/javascript">
+                        function chang4() {
+                            var m1 = document.getElementById("cart-mini-num");
+                            var m1t = document.getElementById("cart-mini-numItem");
+
+                            m1.onmouseover = function() {
+                                m1t.style.display = "block";
+                            }
+                            m1.onmouseout = function() {
+                                m1t.style.display = "none";
+                            }
+                        }
+                        window.onload = chang4();
+
+                    </script>
+                </a>
+            </div>
+            <div class="topbar-info">
+                <a href="mi_enter/land.html" target="_blank">登陆</a>
+                <span class="sep">|</span>
+                <a href="mi_enroll/enroll.html" target="_blank">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="site-header">
+        <div class="container">
+            <div class="header-logo"><img src="images/head-logo.jpg"></div>
+            <div class="header-nav">
+                <ul class="nav_list" id="nav_list">
+                    <li id="nav_list1">小米手机</li>
+                    <li id="nav_list2">红米</li>
+                    <li id="nav_list3">平板 • 笔记本</li>
+                    <li id="nav_list4">电视</li>
+                    <li id="nav_list5">盒子 • 影音</li>
+                    <li id="nav_list6">路由器</li>
+                    <li id="nav_list7">智能硬件</li>
+                    <li id="nav_list8">服务</li>
+                    <li id="nav_list9">社区</li>
+
+                </ul>
+            </div>
+
+            <div class="header-seach">
+                <form id="searchForm">
+
+                    <input type="button" class="search_into" value="">
+                    <input type="text" id="search_window">
+                    <div class="search-hot-word">
+                        <a href="">红米Note4</a>
+                        <a href="">小米笔记本Air</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="nav_list1Item">
+            <div class="nav_list1Itembox">
+                <div class="nav_listItem1"><img src="images/tanchuan1.png"></div>
+                <div class="nav_listItem1"><img src="images/tanchuan2.png"></div>
+                <div class="nav_listItem1"><img src="images/tanchuan3.png"></div>
+                <div class="nav_listItem1"><img src="images/tanchuan4.png"></div>
+                <div class="nav_listItem1"><img src="images/tanchuan5.png"></div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            function chang2() {
+                var t1 = document.getElementById("nav_list1");
+                var t1t = document.getElementById("nav_list1Item");
+                t1.onmouseover = function() {
+
+                    $(t1t).slideDown();
+                }
+                t1.onmouseout = function() {
+                    $(t1t).slideUp();
+                }
+
+            }
+            window.onload = chang2();
+
+        </script>
+    </div>
+
+
+
+    <div class="focus">
+        <div id="xmSlide" class="xmSlide">
+            <div class="xmSlide_01"></div>
+            <div class="xmSlide_02"></div>
+            <div class="xmSlide_03"></div>
+            <div class="xmSlide_04"></div>
+            <div class="xmSlide_05"></div>
+        </div>
+        <div class="focus_list">
+
+            <ul class="focus_mainlistmenu">
+                <li id="sd">手机 电话卡<span>></span></li>
+                <li id="ipad">笔记本 平板<span>></span></li>
+                <li id="tvbox">电视 盒子<span>></span></li>
+                <li id="harddriver">路由器 智能硬件<span>></span></li>
+                <li id="ele">移动电源 电池 插线板<span>></span></li>
+                <li id="musicer">耳机 音箱<span>></span></li>
+                <li id="proction">保护套 贴膜<span>></span></li>
+                <li id="zhijia">线材 支架 存储卡<span>></span></li>
+                <li id="cloth">箱包 服饰<span>></span></li>
+                <li id="mitu">米兔 生活周边<span>></span></li>
+            </ul>
+
+        </div>
+        <div id="sdItem">
+            <table class="sdItemtable">
+                <tr>
+                    <td><img src="images/iphone1.png"><sup><sup><sup><a class="sdItemtable1">小米手机5</a></sup></sup>
+                        </sup>
+                        <sup><sup><sup><a class="sdItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                    <td><img src="images/iphone2.png"><sup><sup><sup><a class="sdItemtable1">红米手机3</a></sup></sup>
+                        </sup>
+                        <sup><sup><sup><a class="sdItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/iphone3.png"><sup><sup><sup><a class="sdItemtable1">小米手机Max</a></sup></sup>
+                        </sup>
+                        <a class="sdItemtable2">选购</a></td>
+                    <td><img src="images/iphone4.png"><sup><sup><sup><a class="sdItemtable1">红米手机X3</a></sup></sup>
+                        </sup>
+                        <sup><sup><sup><a class="sdItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/iphone5.png"><sup><sup><sup><a class="sdItemtable1">红米Not4</a></sup></sup>
+                        </sup>
+                        <sup><sup><sup><a class="sdItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                    <td><img src="images/iphone6.png"><sup><sup><sup><a class="sdItemtable1">合约机</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/iphone7.png"><sup><sup><sup><a class="sdItemtable1">红米Not3</a></sup></sup>
+                        </sup>
+                        <sup><sup><sup><a class="sdItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                    <td><img src="images/iphone8.png"><sup><sup><sup><a class="sdItemtable1">对比手机</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/iphone9.png"><sup><sup><sup><a class="sdItemtable1">红米手机3s</a></sup></sup>
+                        </sup>
+                        <sup><sup><sup><a class="sdItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                    <td><img src="images/iphone10.png"><sup><sup><sup><a class="sdItemtable1">小米移动 电话卡</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/iphone11.png"><sup><sup><sup><a class="sdItemtable1">红米Pro</a></sup></sup>
+                        </sup>
+                        <sup><sup><sup><a class="sdItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                    <td></td>
+                </tr>
+
+
+            </table>
+        </div>
+        <div id="ipadItem">
+            <table class="ipadItemtable">
+                <tr>
+                    <td><img src="images/ipad1.png"><sup><sup><a class="ipadItemtable1">小米笔记本Air</a></sup></sup>
+                        <sup><sup><sup><a class="ipadItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/ipad2.png"><sup><sup><sup><a class="ipadItemtable1">小米平板2</a></sup></sup>
+                        </sup>
+                        <sup><sup><sup><a class="ipadItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/ipad3.png"><sup><sup><sup><a class="ipadItemtable1">USB-C转接器</a></sup></sup>
+                        </sup>
+                        <sup><sup><sup><a class="ipadItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/ipad4.png"><sup><sup><a class="ipadItemtable1">笔记本内胆包</a></sup></sup>
+                        <sup><sup><sup><a class="ipadItemtable2">选购</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="tvboxItem">
+            <table class="tvboxItemtable">
+                <tr>
+                    <td><img src="images/tv1.png"><sup><a class="tvboxItemtable1">小米电视 43英寸</a></sup>
+                    </td>
+                    <td><img src="images/tv2.png"><sup><a class="tvboxItemtable1">小米电视主机</a></sup>
+                    </td>
+                    <td><img src="images/tv3.png"><sup><a class="tvboxItemtable1">家庭音响</a></sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/tv4.png"><sup><a class="tvboxItemtable1">小米电视 48英寸</a></sup>
+                    </td>
+                    <td><img src="images/tv5.png" style="padding-left:10px;"><sup><a class="tvboxItemtable1">小米盒子3 增强版</a></sup>
+                    </td>
+                    <td><img src="images/tv6.png"><sup><a class="tvboxItemtable1">电视盒子配件</a></sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/tv7.png"><sup><a class="tvboxItemtable1">小米电视 55英寸</a></sup>
+                    </td>
+                    <td><img src="images/tv8.png" style="padding-left:10px;"><sup><a class="tvboxItemtable1">小米盒子3</a></sup>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/tv9.png"><sup><a class="tvboxItemtable1">小米电视 60英寸</a></sup>
+                    </td>
+                    <td><img src="images/tv10.png" style="padding-left:20px;"><sup><a class="tvboxItemtable1">小米盒子 mini</a></sup>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/tv11.png"><sup><a class="tvboxItemtable1">小米电视 65英寸</a></sup>
+                    </td>
+                    <td><img src="images/tv12.png" style="padding-left:28px;"><sup><a class="tvboxItemtable1">小米低音炮</a></sup>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/tv13.png"><sup><a class="tvboxItemtable1">小米电视 70英寸</a></sup>
+                    </td>
+                    <td><img src="images/tv14.png" style="padding-left:10px;"><sup><sup><sup><a class="tvboxItemtable1">蓝牙手柄</a></sup>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="harddriverItem">
+            <table class="harddriverItemtable">
+                <tr>
+                    <td><img src="images/harddriver1.png"><sup><a class="harddriverItemtable1">米家扫地机器人</a></sup>
+                    </td>
+                    <td><img src="images/harddriver2.png"><sup><a class="harddriverItemtable1">米家压力IH电饭煲</a></sup>
+                    </td>
+                    <td><img src="images/harddriver3.png"><sup><a class="harddriverItemtable1">米兔智能故事机</a></sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/harddriver4.png"><sup><a class="harddriverItemtable1">小米VR眼镜玩具版</a></sup>
+                    </td>
+                    <td><img src="images/harddriver5.png"><sup><a class="harddriverItemtable1">摄像机</a></sup>
+                    </td>
+                    <td><img src="images/harddriver6.png"><sup><a class="harddriverItemtable1">智能家庭组合</a></sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/harddriver7.png"><sup><a class="harddriverItemtable1">小米路由器</a></sup>
+                    </td>
+                    <td><img src="images/harddriver8.png"><sup><a class="harddriverItemtable1">净化器及滤芯</a></sup>
+                    </td>
+                    <td><img src="images/harddriver9.png"><sup><a class="harddriverItemtable1">手环及配件</a></sup></td>
+                </tr>
+                <tr>
+                    <td><img src="images/harddriver10.png"><sup><a class="harddriverItemtable1">九号平衡车</a></sup>
+                    </td>
+                    <td><img src="images/harddriver11.png"><sup><a class="harddriverItemtable1">净水器及滤芯</a></sup>
+                    </td>
+                    <td><img src="images/harddriver12.png"><sup><a class="harddriverItemtable1">体重秤</a></sup></td>
+                </tr>
+                <tr>
+                    <td><img src="images/harddriver13.png"><sup><a class="harddriverItemtable1">电动力折叠自行车</a></sup>
+                    </td>
+                    <td><img src="images/harddriver14.png"><sup><a class="harddriverItemtable1">血压计</a></sup>
+                    </td>
+                    <td><img src="images/harddriver15.png"><sup><a class="harddriverItemtable1">米兔儿童电话手表</a></sup></td>
+                </tr>
+                <tr>
+                    <td><img src="images/harddriver16.png"><sup><a class="harddriverItemtable1">米家恒温电水壶</a></sup>
+                    </td>
+                    <td><img src="images/harddriver17.png"><a class="harddriverItemtable1">智能灯</a></sup>
+                    </td>
+                    <td><img src="images/harddriver18.png"><sup><a class="harddriverItemtable1">全部智能硬件</a></sup></td>
+                </tr>
+            </table>
+        </div>
+        <div id="eleItem">
+            <table class="eleItemtable">
+                <tr>
+                    <td><img src="images/ele1.png"><sup><a class="eleItemtable1" style="padding-left:35px;">小米移动电源</a></sup></td>
+                    <td><img src="images/ele2.png"><sup><a class="eleItemtable1">彩虹5号电池</a></sup></td>
+                </tr>
+                <tr>
+                    <td><img src="images/ele3.png"><sup><a class="eleItemtable1">小米插线板</a></sup></td>
+                    <td><img src="images/ele4.png"><sup><a class="eleItemtable1">彩虹7号电池</a></sup></td>
+                </tr>
+                <tr>
+                    <td><img src="images/ele5.png"><sup><a class="eleItemtable1" >品牌移动电源</a></sup></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/ele6.png"><sup><a class="eleItemtable1" style="padding-left:35px;">移动电源附件</a></sup></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/ele7.png"><sup><a class="eleItemtable1" style="padding-left:35px;">电池</a></sup></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/ele8.png"><sup><a class="eleItemtable1" style="padding-left:35px;">充电器</a></sup></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="musicerItem">
+            <table class="musicerItemtable">
+                <tr>
+                    <td><img src="images/music1.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小米头戴耳机</a></sup></td>
+                    <td><img src="images/music2.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小米随身蓝牙耳机</a></sup></td>
+                    <td><img src="images/music3.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">品牌音响</a></sup></td>
+                </tr>
+                <tr>
+                    <td><img src="images/music4.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小米圈铁耳机</a></sup></td>
+                    <td><img src="images/music5.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小钢炮音响 2</a></sup></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/music6.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小米胶囊耳机</a></sup></td>
+                    <td><img src="images/music7.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小钢炮音箱 青春版</a></sup></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/music8.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小米蓝牙耳机</a></sup></td>
+                    <td><img src="images/music9.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小米方盒子音箱</a></sup></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/music10.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">品牌耳机</a></sup></td>
+                    <td><img src="images/music11.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小米米兔音箱</a></sup></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="images/music12.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">小米蓝牙音箱</a></sup></td>
+                    <td><img src="images/music13.png"><sup><a class="musicerItemtable1" style="padding-left:40px;">网络收音机</a></sup></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="proctionItem">
+            <table class="proctionItemtable">
+                <tr>
+                    <td><img src="images/proction1.png"><sup><sup><sup><a class="proctionItemtable1" style="padding-left:40px;">贴膜</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/proction2.png"><sup><sup><sup><a class="proctionItemtable1" style="padding-left:40px;">保护套、保护壳</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/proction3.png"><sup><sup><sup><a class="proctionItemtable1" style="padding-left:40px;">后盖</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/proction4.png"><sup><sup><sup><a class="proctionItemtable1" style="padding-left:40px;">背贴</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="zhijiaItem">
+            <table class="zhijiaItemtable">
+                <tr>
+                    <td><img src="images/zhijia1.png"><sup><sup><sup><a class="zhijiaItemtable1" style="padding-left:30px;">线材</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/zhijia2.png"><sup><sup><sup><a class="zhijiaItemtable1" style="padding-left:30px;">自拍杆</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/zhijia3.png"><sup><sup><sup><a class="zhijiaItemtable1" style="padding-left:30px;">手机支架</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/zhijia4.png"><sup><sup><a class="zhijiaItemtable1" style="padding-left:30px;">存储卡</a></sup></sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="clothItem">
+            <table class="clothItemtable">
+                <tr>
+                    <td><img src="images/cloth1.png"><sup><sup><sup><a class="clothItemtable1" style="padding-left:30px;">箱包</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/cloth2.png"><sup><sup><sup><a class="clothItemtable1" style="padding-left:30px;">90分旅行箱</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/cloth1.png"><sup><sup><a class="clothItemtable1" style="padding-left:30px;">服饰</a></sup></sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="mituItem">
+            <table class="mituItemtable">
+                <tr>
+                    <td><img src="images/mitu1.png"><sup><sup><sup><a class="mituItemtable1" style="padding-left:27px;">米兔玩偶</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/mitu2.png"><sup><sup><sup><a class="mituItemtable1" style="padding-left:30px;">鼠标垫</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/mitu3.png"><sup><sup><a class="mituItemtable1" style="padding-left:30px;">服生活周边</a></sup></sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/mitu4.png"><sup><sup><sup><a class="mituItemtable1" style="padding-left:30px;">《小米》目录杂志</a></sup></sup>
+                        </sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/mitu5.png"><sup><sup><a class="mituItemtable1" style="padding-left:24px;">8H乳胶枕</a></sup></sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript">
+            function chang3() {
+                var z1 = document.getElementById("sd");
+
+                z1.onmouseover = function() {
+                    sdItem.style.display = "block";
+                }
+                z1.onmouseout = function() {
+                    var z1t = document.getElementById("sdItem");
+                    z1t.onmouseover = function() {
+                        sdItem.style.display = "block";
+                    }
+                    z1t.onmouseout = function() {
+                        sdItem.style.display = "none";
+                    }
+                    sdItem.style.display = "none";
+                }
+
+                var z2 = document.getElementById("ipad");
+
+                z2.onmouseover = function() {
+                    ipadItem.style.display = "block";
+                }
+                z2.onmouseout = function() {
+                    var z2t = document.getElementById("ipadItem");
+                    z2t.onmouseover = function() {
+                        ipadItem.style.display = "block";
+                    }
+                    z2t.onmouseout = function() {
+                        ipadItem.style.display = "none";
+                    }
+                    ipadItem.style.display = "none";
+                }
+
+                var z3 = document.getElementById("tvbox");
+                z3.onmouseover = function() {
+                    tvboxItem.style.display = "block";
+                }
+                z3.onmouseout = function() {
+                    var z3t = document.getElementById("tvboxItem");
+                    z3t.onmouseover = function() {
+                        tvboxItem.style.display = "block";
+                    }
+                    z3t.onmouseout = function() {
+                        tvboxItem.style.display = "none";
+                    }
+                    tvboxItem.style.display = "none";
+                }
+
+                var z4 = document.getElementById("harddriver");
+                z4.onmouseover = function() {
+                    harddriverItem.style.display = "block";
+                }
+                z4.onmouseout = function() {
+                    var z4t = document.getElementById("harddriverItem");
+                    z4t.onmouseover = function() {
+                        harddriverItem.style.display = "block";
+                    }
+                    z4t.onmouseout = function() {
+                        harddriverItem.style.display = "none";
+                    }
+                    harddriverItem.style.display = "none";
+                }
+
+                var z5 = document.getElementById("ele");
+                z5.onmouseover = function() {
+                    eleItem.style.display = "block";
+                }
+                z5.onmouseout = function() {
+                    var z5t = document.getElementById("eleItem");
+                    z5t.onmouseover = function() {
+                        eleItem.style.display = "block";
+                    }
+                    z5t.onmouseout = function() {
+                        eleItem.style.display = "none";
+                    }
+                    eleItem.style.display = "none";
+                }
+
+                var z6 = document.getElementById("musicer");
+                z6.onmouseover = function() {
+                    musicerItem.style.display = "block";
+                }
+                z6.onmouseout = function() {
+                    var z6t = document.getElementById("musicerItem");
+                    z6t.onmouseover = function() {
+                        musicerItem.style.display = "block";
+                    }
+                    z6t.onmouseout = function() {
+                        musicerItem.style.display = "none";
+                    }
+                    musicerItem.style.display = "none";
+                }
+
+                var z7 = document.getElementById("proction");
+                z7.onmouseover = function() {
+                    proctionItem.style.display = "block";
+                }
+                z7.onmouseout = function() {
+                    var z7t = document.getElementById("proctionItem");
+                    z7t.onmouseover = function() {
+                        proctionItem.style.display = "block";
+                    }
+                    z7t.onmouseout = function() {
+                        proctionItem.style.display = "none";
+                    }
+                    proctionItem.style.display = "none";
+                }
+
+                var z8 = document.getElementById("zhijia");
+                z8.onmouseover = function() {
+                    zhijiaItem.style.display = "block";
+                }
+                z8.onmouseout = function() {
+                    var z8t = document.getElementById("zhijiaItem");
+                    z8t.onmouseover = function() {
+                        zhijiaItem.style.display = "block";
+                    }
+                    z8t.onmouseout = function() {
+                        zhijiaItem.style.display = "none";
+                    }
+                    zhijiaItem.style.display = "none";
+                }
+
+                var z9 = document.getElementById("cloth");
+                z9.onmouseover = function() {
+                    clothItem.style.display = "block";
+                }
+                z9.onmouseout = function() {
+                    var z9t = document.getElementById("clothItem");
+                    z9t.onmouseover = function() {
+                        clothItem.style.display = "block";
+                    }
+                    z9t.onmouseout = function() {
+                        clothItem.style.display = "none";
+                    }
+                    clothItem.style.display = "none";
+                }
+
+                var z10 = document.getElementById("mitu");
+                z10.onmouseover = function() {
+                    mituItem.style.display = "block";
+                }
+                z10.onmouseout = function() {
+                    var z10t = document.getElementById("mituItem");
+                    z10t.onmouseover = function() {
+                        mituItem.style.display = "block";
+                    }
+                    z10t.onmouseout = function() {
+                        mituItem.style.display = "none";
+                    }
+                    mituItem.style.display = "none";
+                }
+
+
+            }
+            window.onload = chang3();
+
+        </script>
+
+
+        <div class="home-hero-sub">
+
+            <div class="home-list">
+                <div style="width=230px;height=170ox;">
+                    <div class="home-list1" id="listimg1"></div>
+                    <div class="home-list1" id="listimg2"></div>
+                    <div class="home-list1" id="listimg3"></div>
+
+                </div>
+                <div>
+                    <div class="home-list2" id="listimg4"></div>
+                    <div class="home-list2" id="listimg5"></div>
+                    <div class="home-list2" id="listimg6"></div>
+
+                </div>
+            </div>
+
+            <div class="home-hero">
+                <div class="home-hero1">
+                    <a href="" class="home-heroa1"><img id="himgage1" src="images/hero1.jpg"></a>
+                </div>
+                <div class="home-hero2">
+                    <a href="" class="home-heroa2"><img id="himgage2" src="images/hero2.jpg"></a>
+                </div>
+                <div class="home-hero3">
+                    <a href="" class="home-heroa3"><img id="himgage3" src="images/hero3.jpg"></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--   智能硬件-->
+    </div>
+    <div class="miStar-box">
+        <div class="miStar-boxheader">
+            <div class="miStartext">小米明星单品</div>
+            <div class="miStar_button">
+                <a id="miStar_lbutton" class="miStar_button1">
+                    <</a>
+                        <a id="miStar_rbutton" class="miStar_button2">></a>
+            </div>
+        </div>
+        <div class="miStar-content1" id="miStar-content1">
+            <div class="miStar_photo1">
+                <a href=""><img src="images/miStar1.png"></a>
+            </div>
+            <div class="miStar_photo1">
+                <a href=""><img src="images/miStar2.png"></a>
+            </div>
+            <div class="miStar_photo1">
+                <a href=""><img src="images/miStar3.png"></a>
+            </div>
+            <div class="miStar_photo1">
+                <a href=""><img src="images/miStar4.png"></a>
+            </div>
+            <div class="miStar_photo1" style="margin-right:-14px;">
+                <a href=""><img src="images/miStar5.png"></a>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="miStar-content2" id="miStar-content2">
+            <div class="miStar_photo2"><img src="images/miStar6.png"></div>
+            <div class="miStar_photo2"><img src="images/miStar7.png"></div>
+            <div class="miStar_photo2"><img src="images/miStar8.png"></div>
+            <div class="miStar_photo2"><img src="images/miStar9.png"></div>
+            <div class="miStar_photo2" style="margin-right:-14px;"><img src="images/miStar10.png"></div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <script>
+        function chang5() {
+            var b3 = document.getElementById("miStar_lbutton");
+            var b3t = document.getElementById("miStar-content1");
+            var b4 = document.getElementById("miStar_rbutton");
+            var b4t = document.getElementById("miStar-content2");
+            b3.onclick = function() {
+                b3t.style.display = "block";
+                b4t.style.display = "none";
+
+            }
+            b4.onclick = function() {
+                b3t.style.display = "none";
+                b4t.style.display = "block";
+            }
+        }
+        window.onload = chang5();
+
+    </script>
+    <div class="zhineng">
+        <div class="zhineng_title">
+            <div class="zhinengtext">智能硬件</div>
+            <div class="zhineng_button">
+                <a class="zhineng_button1">查看全部</a>
+                <div class="zhineng_button2"></div>
+            </div>
+        </div>
+        <div class="zhineng_content">
+            <table class="zhineng_table" cellspacing="0px">
+                <tr>
+                    <td rowspan="2">
+                        <a href="#"><img src="images/zhinengtable1.png"></a>
+                    </td>
+                    <td>
+                        <a href=""><img src="images/zhinengtable5.png"></a>
+                    </td>
+                    <td>
+                        <a href=""><img src="images/zhinengtable9.jpg"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/zhinengtable4.jpg"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/zhinengtable2.jpg"></a>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <a href="#"><img src="images/zhinengtable6.jpg"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/zhinengtable7.jpg"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/zhinengtable8.jpg"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/zhinengtable3.jpg"></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- 搭配-->
+    <div class="accessories">
+        <div class="accessories_title">
+            <div class="accessoriestext">搭配</div>
+            <div class="accessories_button">
+                <a class="accessories_button1">查看全部</a>
+                <div class="accessories_button2"></div>
+            </div>
+        </div>
+        <div class="accessories_content">
+            <table class="accessories_table" cellspacing="14px">
+                <tr>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/accessories1.png">
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/accessories2.jpg">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">(⊙o⊙)...呃。我敢说被人抢了么。这都第三个了。第一...
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 糖糖果果儿 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/accessories5.jpg">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">东西不错，特别轻，以前买过别的蓝牙耳机，带几天就不带...
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 A@然 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/accessories4.jpg">
+
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">客服妹子实话说吧!永远支持国产，永远支持小米。这圈铁...
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 894039435 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/accessories3.jpg">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">比我以前买的小米充电宝砖头好要多了！放在包里不占位置...
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 龚毅祥 的评价</span>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/accessories6.jpg">
+
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/accessories7.jpg">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">手感超舒服，有USB输入充电，以后不用到处换插头了
+                                        <br> 来自于 玻璃樽81 的评价
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/accessories8.jpg">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">3个usb插头正好给手机和pad充电，隐藏式白色指示...
+                                        <br> 来自于 prinoac 的评价
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/accessories9.jpg">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">很精致，小巧可爱，连接成功是女声说话提示。音质很纯很...
+                                        <br> 来自于 Cc大坏 的评价
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <a href="#" style="margin-bottom:10px;"><img src="images/accessories11.png"></a>
+                                <a href="#" style="margin-top:10px;"><img src="images/accessories12.png"></a>
+
+                            </div>
+                        </a>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- 配件-->
+    <div class="accessories">
+        <div class="accessories_title">
+            <div class="accessoriestext">配件</div>
+            <div class="accessories_button">
+                <a class="accessories_button1">查看热门</a>
+                <div class="accessories_button2"></div>
+            </div>
+        </div>
+        <div class="accessories_content">
+            <table class="accessories_table" cellspacing="14px">
+                <tr>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/dapei1.png">
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <a href=""><img src="images/dapei2.png"></a>
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">很好的。质量好。小米的品质。小米的心
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 爱小米BDS 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <a href=""><img src="images/dapei3.png"></a>
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">今天刚接收，试用了一下，非常好用，护屏一打开屏幕就亮...
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 林中路 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/dapei4.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">质感好，功能也好，希望也耐磨。
+                                        <br>
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 44498698 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/dapei5.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">不错，买给我舅妈的，她很喜欢
+                                        <br>
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 令狐韭菜 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/dapei6.png">
+
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/dapei7.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">挺不错的。手感和做工都很满意！支持一下
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 846245880 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/dapei8.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">很好的手机保护套，质量ok
+                                        <br>
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 binarystar1989 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/dapei9.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">贴好后，觉得效果不错，都习惯了它的智能唤醒，再去拿别...
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 471329631 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <a href="#" style="margin-bottom:10px;"><img src="images/dapei10.png"></a>
+                                <a href="#" style="margin-top:10px;"><img src="images/dapei11.png"></a>
+
+                            </div>
+                        </a>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- 周边-->
+    <div class="accessories">
+        <div class="accessories_title">
+            <div class="accessoriestext">周边</div>
+            <div class="accessories_button">
+                <a class="accessories_button1">热门推荐</a>
+                <div class="accessories_button2"></div>
+            </div>
+        </div>
+        <div class="accessories_content">
+            <table class="accessories_table" cellspacing="14px">
+                <tr>
+                    <td class="accessoriesbox1">
+                        <a href="" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/zhoubian6.png">
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/zhoubian2.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">布料很好 不像其他那些五六十的很烂的那种
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 发烧神米007 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/zhoubian3.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">感觉非常不错，特别是这上边的图案，萌萌哒！
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 478670150 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/zhoubian4.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">货品收到了！这个印花太耀眼了。
+                                        <br>
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 乌之江下面 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/zhoubian5.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">质量非常好，滑滑的穿着很舒适，推荐给大家值得购买。
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 697282835 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/zhoubian1.png">
+
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/zhoubian7.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">非常不错，感觉厚实，但是重量很好，不轻不重，很贴心...
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 李博强 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/zhoubian8.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">这个真不错！我用超微蚊香片插放很容易！它使用的标尺...
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 LGH863117 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <img src="images/zhoubian9.png">
+                                <div class="accessoriesbox1p">
+                                    <p style="margin:10px 20px;">很好用！特别是五档开光灯，好用！方便！
+                                        <br>
+                                        <span style="color:#FFC299;">来自于 86505510 的评价</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="accessoriesbox1">
+                        <a href="#" class="accessories1">
+                            <div class="accessoriesdiv1">
+                                <a href="#" style="margin-bottom:10px;"><img src="images/zhoubian10.png"></a>
+                                <a href="#" style="margin-top:10px;"><img src="images/zhoubian11.png"></a>
+
+                            </div>
+                        </a>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- 为你推荐-->
+    <div class="tuijian">
+        <div class="tuijian_title">
+            <div class="tuijiantext">为你推荐</div>
+            <div class="tuijian_button">
+                <a class="tuijian_button1">查看全部</a>
+                <div class="tuijian_button2"></div>
+            </div>
+        </div>
+        <div class="tuijian_content">
+            <table class="tuijian_table" cellspacing="0px" style="height:320px;">
+                <tr>
+                    <td>
+                        <a href=""><img src="images/tuijian1.png"></a>
+                    </td>
+                    <td>
+                        <a href=""><img src="images/tuijian2.png"></a>
+                    </td>
+                    <td>
+                        <a href=""><img src="images/tuijian3.png"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/tuijian4.png"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/tuijian5.png"></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- 热评产品-->
+    <div class="repin">
+        <div class="repin_title">
+            <div class="renpintext" style="font-size:22px;">热评产品</div>
+        </div>
+        <div class="repin_content">
+            <table class="repin_table" cellspacing="0px" style="height:320px;">
+                <tr>
+                    <td>
+                        <a href=""><img src="images/repin1.png"></a>
+                    </td>
+                    <td>
+                        <a href=""><img src="images/repin2.png"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/repin3.png"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/repin4.png"></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="video">
+        <div class="video_title">
+            <div class="videotext">视频</div>
+            <div class="video_button">
+                <a class="video_button1">热门推荐</a>
+                <div class="video_button2"></div>
+            </div>
+        </div>
+        <div class="video_content">
+            <table class="video_table" cellspacing="0px" style="height:320px;">
+                <tr>
+                    <td>
+                        <a href="#"><img src="images/videoimg1.png">
+                            <div class="video_into"><img src="images/videoPlay.png" style="width:15px;height:15px;margin-left:8px;margin-top:3px;"></div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/videoimg2.png">
+                            <div class="video_into"><img src="images/videoPlay.png" style="width:15px;height:15px;margin-left:8px;margin-top:3px;"></div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/videoimg3.png">
+                            <div class="video_into"><img src="images/videoPlay.png" style="width:15px;height:15px;margin-left:8px;margin-top:3px;"></div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="images/videoimg4.png">
+                            <div class="video_into"><img src="images/videoPlay.png" style="width:15px;height:15px;margin-left:8px;margin-top:3px;"></div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- 底部-->
+    <div class="footer">
+        <ul class="foot_top">
+            <li><a href="#">1小时快修服务<span class="line"></span></a></li>
+            <li><a href="#">7天无理由退货</a></li>
+            <li><a href="#">15天免费换货</a></li>
+            <li><a href="#">满150元包邮</a></li>
+            <li><a href="#">520余家售后网点</a></li>
+        </ul>
+
+
+        <ul class="foot_middle">
+            <li class="foot_middle_left">
+                <table class="foot_table">
+                    <tr>
+                        <th>帮助中心</th>
+                        <th>服务支持</th>
+                        <th>线下门店</th>
+                        <th>关于小米</th>
+                        <th>关注我们</th>
+                        <th>特色服务</th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">账户管理</a></td>
+                        <td><a href="#">售后政策</a></td>
+                        <td><a href="#">小米之家</a></td>
+                        <td><a href="#">了解小米</a></td>
+                        <td><a href="#">新浪微博</a></td>
+                        <td><a href="#">F码通道</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">购物指南</a></td>
+                        <td><a href="#">自助服务</a></td>
+                        <td><a href="#">服务网点</a></td>
+                        <td><a href="#">加入小米</a></td>
+                        <td><a href="#">小米部落</a></td>
+                        <td><a href="#">小米移动</a></td>
+                    </tr>
+                    <tr class="last">
+                        <td><a href="#">订单操作</a></td>
+                        <td><a href="#">相关下载</a></td>
+                        <td><a href="#">零售网点</a></td>
+                        <td><a href="#">联系我们</a></td>
+                        <td><a href="#">官方微信</a></td>
+                        <td><a href="#">防伪查询</a></td>
+                    </tr>
+                </table>
+
+            </li>
+
+            <li class="foot_middle_right">
+                <h2>400-100-5678</h2>
+                <p>周一至周日 8:00-18:00</p>
+                <p class="last">（仅收市话费）</p>
+                <div></div>
+            </li>
+
+        </ul>
+
+        <div class="footer_bottom">
+            <img src="images/logo.jpg">
+            <table>
+                <tr>
+                    <td><a href="#">小米商城</a></td>
+                    <td><a href="#">米聊</a></td>
+                    <td><a href="#">多看书城</a></td>
+                    <td><a href="#">小米路由器</a></td>
+                    <td><a href="#">小米后院</a></td>
+                    <td><a href="#">小米天猫店</a></td>
+                    <td><a href="#">小米淘宝直营店</a></td>
+                    <td><a href="#">小米网盟</a></td>
+                    <td><a href="#">问题反馈</a></td>
+                    <td><a href="#">Select Region</a></td>
+                </tr>
+            </table>
+
+            <p>
+                <a href="#"> ©mi.com</a> 京ICP证110507号京ICP备10046444号 <a href="# ">京公网安备11010802020134号</a>
+                <a href="#">京网文[2014]0059-0009号</a> 违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室
+            </p>
+
+            <ul>
+                <li><img src="images/seal.png"></li>
+                <li><img src="images/v-logo-1.png"></li>
+                <li><img src="images/v-logo-2.png"></li>
+                <li><img src="images/v-logo-3.png"></li>
+            </ul>
+
+
+            <h2>探索黑科技，小米为发烧而生</h2>
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
